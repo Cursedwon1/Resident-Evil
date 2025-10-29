@@ -1,0 +1,27 @@
+[gd_scene load_steps=2 format=3 uid="uid://c8vclnf47ie7h"]
+
+[ext_resource type="Script" uid="uid://xqtyymsh0ib7" path="res://addons/mpf-gmc/classes/mpf_slide.gd" id="1_r1mnt"]
+
+[node name="Attract" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+script = ExtResource("1_r1mnt")
+metadata/_custom_type_script = "uid://xqtyymsh0ib7"
+
+[node name="ColorRect" type="ColorRect" parent="."]
+custom_minimum_size = Vector2(256, 64)
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 40.0
+color = Color(0, 0.2, 1, 1)
+
+[node name="Label" type="Label" parent="ColorRect"]
+layout_mode = 0
+offset_left = 1.0
+offset_top = 20.0
+offset_right = 256.0
+offset_bottom = 43.0
+theme_override_font_sizes/font_size = 17
+text = "Welcome to Cursed's Arcade"
+horizontal_alignment = 1
+vertical_alignment = 1
